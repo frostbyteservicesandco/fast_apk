@@ -1,4 +1,4 @@
-name: Build fast apk
+name: Build FAST APK
 
 on:
   push:
@@ -18,7 +18,7 @@ jobs:
           channel: 'stable'
 
       - name: Generate platform files
-        run: flutter create .
+        run: flutter create --project-name fast_attendance .
 
       - name: Install packages
         run: flutter pub get
