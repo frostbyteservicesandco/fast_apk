@@ -1,4 +1,4 @@
-name: Build FAST APK
+name: Build fast apk
 
 on:
   push:
