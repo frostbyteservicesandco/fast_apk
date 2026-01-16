@@ -1,4 +1,4 @@
-name: fast_attendance
+name: F.A.S.T.-For Students
 
 description: F.A.S.T. Student Attendance App
 publish_to: 'none'
@@ -21,6 +21,7 @@ flutter:
   uses-material-design: true
   assets:
     - assets/logo.png
+
 
 
 
