@@ -1,6 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission
+        android:name="android.permission.INTERNET"/>
     <application
-        android:label="fast_for_students"
+        android:label="F.A.S.T.-For Students"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
